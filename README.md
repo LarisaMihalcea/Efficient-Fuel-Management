@@ -6,8 +6,11 @@ There are several types of cars, namely: internal combustion engine cars (which 
 For each type of car, consumption can be calculated as follows:
 
 Gasoline - (0.879 * average_consumption * number_of_kilometers) / 100;
+
 Diesel - (0.789 * average_consumption * number_of_kilometers) / 100;
+
 Hybrid - (average_consumption * number_of_kilometers - 0.124 * number_of_kilometers) / 100;
+
 Electric - 0.
 
 For example, a car that has traveled 100 km on gasoline with an average consumption of 5 L/100 km will consume 0.879 * 5 * 100 / 100 = 4.39 L of gasoline.
